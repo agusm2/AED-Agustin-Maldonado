@@ -1,4 +1,6 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ClaseFileReader {
 
@@ -11,10 +13,13 @@ public class ClaseFileReader {
         FileReader fileReader = new FileReader(archivo);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
+        //Creo un array con todas las lineas para acceder facilmente a ellas
+        List<String> lineas = new ArrayList<>();
+
         //Bucle para ir leyendo linea por linea
         String linea = bufferedReader.readLine();
         while(linea != null){
-            System.out.println(linea);
+            lineas.add(linea);
             linea = bufferedReader.readLine();
         }
     }
