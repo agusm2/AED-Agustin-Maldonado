@@ -1,4 +1,4 @@
-# Reflexión UT5 - Diccionarios, Mapas & Hashing
+# Reflexión UT6 - Diccionarios, Mapas & Hashing
 
 Desde mi punto de vista, los resultados esperados del aprendizaje implican conocer la estructura Hash y las múltiples
 implementaciones que conlleva (LinkedHashMap, HashSet, HashMap, etc.), como también saber la utilidad de cada una y como
